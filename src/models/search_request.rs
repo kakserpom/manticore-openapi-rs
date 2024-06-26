@@ -1,7 +1,7 @@
 /*
  * Manticore Search Client
  *
- * Сlient for Manticore Search.
+ * Сlient for Manticore Search. 
  *
  * The version of the OpenAPI document: 3.3.1
  * Contact: info@manticoresearch.com
@@ -51,7 +51,21 @@ impl SearchRequest {
     pub fn new(index: String) -> SearchRequest {
         SearchRequest {
             index,
-            ..Default::default()
+            query: None,
+            fulltext_filter: None,
+            attr_filter: None,
+            limit: None,
+            offset: None,
+            max_matches: None,
+            sort: None,
+            aggs: None,
+            expressions: None,
+            highlight: None,
+            source: None,
+            options: None,
+            profile: None,
+            track_scores: None,
         }
     }
 }
+

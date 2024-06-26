@@ -1,7 +1,7 @@
 /*
  * Manticore Search Client
  *
- * Сlient for Manticore Search.
+ * Сlient for Manticore Search. 
  *
  * The version of the OpenAPI document: 3.3.1
  * Contact: info@manticoresearch.com
@@ -19,7 +19,7 @@ pub struct DeleteResponse {
     #[serde(rename = "deleted", skip_serializing_if = "Option::is_none")]
     pub deleted: Option<i32>,
     #[serde(rename = "_id", skip_serializing_if = "Option::is_none")]
-    pub _id: Option<u64>,
+    pub _id: Option<i64>,
     #[serde(rename = "result", skip_serializing_if = "Option::is_none")]
     pub result: Option<String>,
 }
@@ -35,3 +35,4 @@ impl DeleteResponse {
         }
     }
 }
+
