@@ -1,9 +1,9 @@
-# Rust API client for openapi
+# Rust API client for Manticore Search
 
 Сlient for Manticore Search.
 
 
-For more information, please visit [https://manticoresearch.com/contact-us/](https://manticoresearch.com/contact-us/)
+For more information, please visit [https://manticoresearch.com/](https://manticoresearch.com/)
 
 ## Overview
 
@@ -91,4 +91,3 @@ cargo doc --open
 ## Author
 
 info@manticoresearch.com
-

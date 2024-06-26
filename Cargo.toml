@@ -1,10 +1,11 @@
 [package]
 name = "manticore-openapi"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["info@manticoresearch.com"]
 description = "Сlient for Manticore Search. "
 license = "MIT"
 edition = "2021"
+repository = "https://github.com/kakserpom/manticore-openapi-rs"
 
 [dependencies]
 serde = { version = "^1.0", features = ["derive"] }
